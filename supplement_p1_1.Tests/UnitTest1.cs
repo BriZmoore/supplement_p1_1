@@ -15,6 +15,12 @@ public class UnitTest1
       [Fact]
     public void ShouldCalculateAreaOfUnitCircle()
     {
-        Assert.True(double.Pi== supplement_p1_1.AreaCircle(1.0));
+        Assert.True(double.Pi== supplement_p1_1.AreaOfCircle(1.0));
     }
+      [Fact]
+    public void ShouldCalculateAreaOfATriangle()
+    {
+        Assert.True(100== supplement_p1_1.AreaOfTriangle(50.0, 4.0));
+    }
+
 }
