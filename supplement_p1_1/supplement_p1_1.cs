@@ -27,7 +27,7 @@ public class supplement_p1_1
         return double.Pow(radius, 2.0) * double.Pi;
     }
     public static double AreaOfTriangle(double triangleBase, double triangleHeight ) {
-        throw new NotImplementedException();
+        return triangleBase*triangleHeight /2;
     }
     
 
