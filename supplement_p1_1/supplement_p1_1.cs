@@ -14,8 +14,7 @@ public class supplement_p1_1
             return length * length; //or double.Pow(length, 2.0)
         } else{
             return length * width;
-        }
-        
+        }     
 
     }
     /// <summary>
@@ -26,6 +25,12 @@ public class supplement_p1_1
     public static double AreaOfCircle(double radius) {
         return double.Pow(radius, 2.0) * double.Pi;
     }
+    /// <summary>
+    /// Returns the area of a triangle.
+    /// </summary>
+    /// <param name="triangleBase">Base of the triangle.</param>
+    /// <param name="triangleHeight">Height of the triangle.</param>
+    /// <returns>Area of the triangle with given base and height.</returns>
     public static double AreaOfTriangle(double triangleBase, double triangleHeight ) {
         return triangleBase*triangleHeight /2;
     }
